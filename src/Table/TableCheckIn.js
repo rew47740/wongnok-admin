@@ -63,16 +63,11 @@ class TableCheckIn extends React.Component {
       children.push(<OptGroup label="บ้าน"></OptGroup>);
       children.push(<Option key={"C" + i}>{"C" + i}</Option>);
     }
-    children.push(<Option key={"ริมน้ำ"}>{"ริมน้ำ"}</Option>);
-    for (let i = 1; i <= 5; i++) {
-      children.push(<OptGroup label="บ้าน"></OptGroup>);
-      children.push(<Option key={"D" + i}>{"D" + i}</Option>);
-    }
-    children.push(<OptGroup label="บ้าน"></OptGroup>);
-    children.push(<Option key={"เรือนไทยหลังใหญ่1"}>{"เรือนไทยหลังใหญ่1"}</Option>);
-    children.push(<Option key={"เรือนไทยหลังใหญ่2"}>{"เรือนไทยหลังใหญ่2"}</Option>);
-
+ 
   }
+
+
+  
   success = () => {
     message
       .loading('กำลังบันทึกข้อมูล..', 2)
