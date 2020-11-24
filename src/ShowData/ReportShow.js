@@ -50,7 +50,7 @@ class ReceiptInfoShow extends Component {
                             <Menu.Item key="3"><Link to='/CheckInInfoShow'>ข้อมูลการเข้าพัก</Link></Menu.Item>
                             <Menu.Item key="4"><Link to='/HistoryInfoShow'>ประวัติลูกค้า</Link></Menu.Item>
                             <Menu.Item key="5"><Link to='/StatusRecShow'>สถานะของลูกค้า</Link></Menu.Item>
-                            <Menu.Item key="6"><Link to='/CustomerInfoShow'>ข้อมูลลูกค้าทั้งหมด</Link></Menu.Item>
+                         
                
                
                         </Menu>
